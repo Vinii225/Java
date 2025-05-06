@@ -30,6 +30,15 @@
 
 ---
 
+## 📝 Exercise Lists in Portuguese
+
+This repository includes official **PDF exercise lists** provided during the course (in **Brazilian Portuguese**).  
+Each list includes exercise descriptions, and for each one, I provide a Java implementation and explanatory comments — all in Portuguese.
+
+These PDFs serve as helpful references and documentation of my progress.
+
+---
+
 ## 🧠 Goal
 
 Build a strong foundation in Java, develop real-world applications, and gain confidence in object-oriented programming and software development best practices.
