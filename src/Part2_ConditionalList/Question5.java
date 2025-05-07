@@ -1,4 +1,4 @@
-package ExercisesPart2;
+package Part2_ConditionalList;
 
 import java.util.Locale;
 import java.util.Scanner;

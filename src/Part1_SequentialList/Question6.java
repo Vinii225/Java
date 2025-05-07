@@ -1,4 +1,4 @@
-package ExercisesPart1;
+package Part1_SequentialList;
 
 import java.lang.Math;
 import java.util.Locale;

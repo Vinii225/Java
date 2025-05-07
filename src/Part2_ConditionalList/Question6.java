@@ -1,4 +1,4 @@
-package ExercisesPart2;
+package Part2_ConditionalList;
 
 import java.util.Scanner;
 
@@ -19,9 +19,9 @@ public class Question6 {
             System.out.println("Range: [0, 25]");
         } else if (value > 25 && value <= 50) {
             System.out.println("Range: (25, 50]");
-        } else if (value>50 && value <=75) {
+        } else if (value > 50 && value <= 75) {
             System.out.println("Range: (50,75]");
-        }else if (value > 75 && value <= 100) {
+        } else if (value > 75 && value <= 100) {
             System.out.println("Range: (75, 100]");
         } else {
             System.out.println("Out of range.");
