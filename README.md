@@ -1,9 +1,9 @@
 # ☕ Java Developer Learning Journey
 
 🎓 **Course:** [Java COMPLETO - Object-Oriented Programming + Projects](https://www.udemy.com/course/java-curso-completo/)
-👨‍🏫 **Instructor:** Nélio Alves
-📅 **Started:** April 25, 2025
-📁 **Status:** Ongoing — updated as I complete exercises and projects
+👨‍🏫 **Instructor:** Nélio Alves \\
+📅 **Started:** April 25, 2025 \\
+📁 **Status:** Ongoing — updated as I complete exercises and projects 
 
 ---
 
