@@ -33,7 +33,8 @@
 ## 📝 Exercise Lists in Portuguese
 
 This repository includes official **PDF exercise lists** provided during the course (in **Brazilian Portuguese**).  
-Each list includes exercise descriptions, and for each one, I provide a Java implementation and explanatory comments — all in Portuguese.
+Each list includes exercise descriptions, and for each one, I provide a Java implementation and explanatory comments — all in English.
+These lists are organized by sections and can be found in the `exercises` folder.
 
 These PDFs serve as helpful references and documentation of my progress.
 
