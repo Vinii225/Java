@@ -14,18 +14,18 @@ public class Question2 {
         int X, Y;
 
         while (true) {
-            X=keyboard.nextInt();
-            Y=keyboard.nextInt();
-            
-            if (X>0 && Y>0) {
+            X = keyboard.nextInt();
+            Y = keyboard.nextInt();
+
+            if (X > 0 && Y > 0) {
                 System.out.println("First Quadrant.");
-            } else if (X<0 && Y>0) {
+            } else if (X < 0 && Y > 0) {
                 System.out.println("Second Quadrant.");
-            } else if (X<0 && Y<0) {
+            } else if (X < 0 && Y < 0) {
                 System.out.println("Third Quadrant.");
-            } else if (X>0 && Y<0) {
+            } else if (X > 0 && Y < 0) {
                 System.out.println("Fourth Quadrant.");
-            } else if (X==0 || Y==0) {
+            } else if (X == 0 || Y == 0) {
                 break;
             }
         }
