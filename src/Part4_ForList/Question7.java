@@ -18,9 +18,9 @@ public class Question7 {
         Scanner keyboard = new Scanner(System.in);
         int N;
 
-        N=keyboard.nextInt();
+        N = keyboard.nextInt();
 
-        for (int i=1; i<=N; i++) {
+        for (int i = 1; i <= N; i++) {
             System.out.printf("%d %.0f %.0f\n", i, Math.pow(i, 2), Math.pow(i, 3));
         }
         keyboard.close();
