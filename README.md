@@ -17,7 +17,7 @@
 * ✅ Variables, data types, and operations
 * ✅ Input/output (`Scanner`, `Locale`, `System.out`)
 * ✅ Conditional structures (`if`, `else`, `switch`)
-* 🔄 Looping (`while`, `for`, `do-while`)
+* ✅ Looping (`while`, `for`, `do-while`)
 * 🔄 Methods and scope
 * 🔄 Arrays and multidimensional arrays
 * 🔄 Object-Oriented Programming (classes, objects, encapsulation, inheritance, polymorphism)
@@ -56,6 +56,22 @@
 │   ├── 📄 Question4.java – Game duration calculation
 │   ├── 📄 Question5.java – Menu total cost
 │   └── 📄 Question6.java – Interval classification
+│
+├── 📂 Part3_WhileList
+│   ├── 📄 02-exercicios3-estrutura-while.pdf
+│   ├── 📄 Question1.java – Password validation loop
+│   ├── 📄 Question2.java – Cartesian quadrant checker
+│   └── 📄 Question3.java – Fuel preference counter
+│
+├── 📂 Part4_ForList
+│   ├── 📄 02-exercicios4-estrutura-for.pdf
+│   ├── 📄 Question1.java – Odd numbers up to X
+│   ├── 📄 Question2.java – Interval counter
+│   ├── 📄 Question3.java – Weighted averages
+│   ├── 📄 Question4.java – Division with zero check
+│   ├── 📄 Question5.java – Factorial calculation
+│   ├── 📄 Question6.java – Divisors of N
+│   └── 📄 Question7.java – Squares and cubes table
 ```
 
 ---
