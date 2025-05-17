@@ -4,7 +4,7 @@
 
 👨‍🏫 **Instructor:** Nélio Alves
 
-📅 **Started:** April 25, 2025
+📅 **Started:** April 25, 2024
 
 📁 **Status:** Ongoing — updated as I complete exercises and projects 
 
@@ -72,6 +72,16 @@
 │   ├── 📄 Question5.java – Factorial calculation
 │   ├── 📄 Question6.java – Divisors of N
 │   └── 📄 Question7.java – Squares and cubes table
+│
+├── 📂 Part5_ObjectedOrientedList
+│   ├── 📄 02-exercicios5-poo.pdf
+│   ├── 📄 Question1.java – Rectangle area, perimeter, diagonal
+│   ├── 📄 Question2.java – Employee salary management
+│   ├── 📄 Question3.java – Student grades and approval
+│   └── 📂 Entities
+│       ├── 📄 Rectangle.java
+│       ├── 📄 Employee.java
+│       └── 📄 Student.java
 ```
 
 ---
