@@ -1,9 +1,9 @@
 package Part5_ObjectedOrientedList;
 
-
-import Part5_ObjectedOrientedList.Entities.Student;
 import java.util.Scanner;
 import java.util.Locale;
+
+import Part5_ObjectedOrientedList.Entities.Student;
 
 public class Question3 {
     public static void main(String[] args) {

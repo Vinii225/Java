@@ -1,6 +1,5 @@
 package Part5_ObjectedOrientedList;
 
-
 import java.util.Locale;
 import java.util.Scanner;
 
