@@ -6,8 +6,9 @@
 
 📅 **Started:** April 25, 2024
 
-📁 **Status:** <span style="color: #8A2BE2;">**Ongoing**</span> — Updated as I complete exercises and projects  
-**Observation:** I am doing <span style="color: #8A2BE2;">**two courses**</span> at different universities (<span style="color: #8A2BE2;">**public and private**</span>). Since the vacation schedules never align between the two institutions, it may take time to finish the course
+📁 **Status:** <span style="color: #8A2BE2;">**Ongoing**</span> — Updated as I complete exercises and projects.
+
+**Observation:** I am doing <span style="color: #8A2BE2;">**two courses**</span> at different universities (<span style="color: #8A2BE2;">**public and private**</span>). Since the vacation schedules never align between the two institutions, it may take time to finish the course.
 
 <img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
 
@@ -84,8 +85,8 @@
 │   │   ├── 📄 Employee.java
 │   │   └── 📄 Student.java
 │   └── 📂 StaticMethod_FixationExercise
-│       ├── 📄 CurrencyConverter.java – <span style="color: #8A2BE2;">**Currency conversion with IOF tax**</span>
-│       └── 📄 CurrencyConverterExecution.java – <span style="color: #8A2BE2;">**Currency converter main program**</span>
+│       ├── 📄 CurrencyConverter.java – Currency conversion with IOF tax
+│       └── 📄 CurrencyConverterExecution.java – Currency converter main program
 │
 └── 📂 Testing
     ├── 📄 ProductExecution.java – Product management system
