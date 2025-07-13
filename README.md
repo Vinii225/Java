@@ -20,10 +20,9 @@
 - ✅ **Input/output** (`Scanner`, `Locale`, `System.out`)
 - ✅ **Conditional structures** (`if`, `else`, `switch`)
 - ✅ **Looping** (`while`, `for`, `do-while`)
-- 🔄 **Methods and scope** ← <span style="color: #8A2BE2;">*Currently Learning*</span>
-- 🔄 **Arrays and multidimensional arrays** ← <span style="color: #8A2BE2;">*Currently Learning*</span>
+- 🔄 **Methods, Static Methods, Members and Scope** ← <span style="color: #8A2BE2;">*Currently Learning*</span>
 - 🔄 **Object-Oriented Programming** (classes, objects, encapsulation, inheritance, polymorphism) ← <span style="color: #8A2BE2;">*Currently Learning*</span>
-- 🔄 **Static methods and members** ← <span style="color: #8A2BE2;">*Currently Learning*</span>
+- 🔄 **Arrays and multidimensional arrays** ← <span style="color: #8A2BE2;">*Currently Learning*</span>
 - ❌ **Collections and generics**
 - ❌ ***Exception handling***
 - ❌ **File handling**
@@ -33,7 +32,8 @@
 - ❌ **JDBC and database access**
 - ❌ **Deployment and real-world projects**
 
-**Legend:** ✅ = Completed | 🔄 = In Progress | ❌ = Not Started
+**Legend:**
+ ✅ = Completed | 🔄 = In Progress | ❌ = Not Started
 
 <img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
 
