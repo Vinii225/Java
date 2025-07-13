@@ -4,18 +4,18 @@ public class Employee {
 
     // Used in: Question2.java (Employee salary management)
 
-    public String Name;
-    public Double GrossSalary;
-    public Double Tax;
+    public String name;
+    public Double grossSalary;
+    public Double tax;
 
-    public double NetSalary() {
-        return GrossSalary-Tax;
+    public double netSalary() {
+        return grossSalary - tax;
     }
     
-    public void IncreaseSalary(double percentage) {
-        this.GrossSalary+= GrossSalary * percentage / 100.0;
+    public void increaseSalary(double percentage) {
+        this.grossSalary += grossSalary * percentage / 100.0;
     }
-    public String toString () {
-        return Name + ", $ " + String.format("%.2f", NetSalary());
+    public String toString() {
+        return name + ", $ " + String.format("%.2f", netSalary());
     }
 }

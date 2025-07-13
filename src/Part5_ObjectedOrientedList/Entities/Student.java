@@ -4,18 +4,18 @@ public class Student {
 
     // Used in: Question3.java (Student grades and approval)
 
-    public String Name;
-    public double Grade1;
-    public double Grade2;
-    public double Grade3;
+    public String name;
+    public double grade1;
+    public double grade2;
+    public double grade3;
 
-    public double FinalGrade() {
-        return Grade1+Grade2+Grade3;
+    public double finalGrade() {
+        return grade1 + grade2 + grade3;
     }
 
-    public double VerifyPoints() {
-        if (FinalGrade()<60) {
-            return 60 - FinalGrade();
+    public double verifyPoints() {
+        if (finalGrade() < 60) {
+            return 60 - finalGrade();
         } else {
             return 0.0;
         }

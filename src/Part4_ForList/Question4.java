@@ -13,11 +13,11 @@ public class Question4 {
          */
 
         Scanner keyboard = new Scanner(System.in);
-        int N, n1, n2;
+        int n, n1, n2;
 
-        N = keyboard.nextInt();
+        n = keyboard.nextInt();
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < n; i++) {
             n1 = keyboard.nextInt();
             n2 = keyboard.nextInt();
 

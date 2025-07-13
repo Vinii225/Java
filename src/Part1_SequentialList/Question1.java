@@ -13,7 +13,6 @@ public class Question1 {
         int n1, n2, sum;
 
         n1 = keyboard.nextInt();
-
         n2 = keyboard.nextInt();
 
         sum = n1 + n2;

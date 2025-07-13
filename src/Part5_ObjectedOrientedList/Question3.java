@@ -1,6 +1,5 @@
 package Part5_ObjectedOrientedList;
 
-
 import Part5_ObjectedOrientedList.Entities.Student;
 import java.util.Scanner;
 import java.util.Locale;
@@ -25,37 +24,37 @@ public class Question3 {
 
         Student student = new Student();
 
-        student.Name = keyboard.nextLine();
+        student.name = keyboard.nextLine();
 
         while (true) {
-            student.Grade1 = keyboard.nextDouble();
-            if (student.Grade1 >= 0 && student.Grade1 <= 30) {
+            student.grade1 = keyboard.nextDouble();
+            if (student.grade1 >= 0 && student.grade1 <= 30) {
                 continue;
             } else {
-                student.Grade1 = keyboard.nextDouble();
+                student.grade1 = keyboard.nextDouble();
             }
 
-            student.Grade2 = keyboard.nextDouble();
-            if (student.Grade2 >= 0 && student.Grade2 <= 35) {
+            student.grade2 = keyboard.nextDouble();
+            if (student.grade2 >= 0 && student.grade2 <= 35) {
                 continue;
             } else {
-                student.Grade1 = keyboard.nextDouble();
+                student.grade1 = keyboard.nextDouble();
             }
             
-            student.Grade3 = keyboard.nextDouble();
-            if (student.Grade3 >= 0 && student.Grade1 <= 35) {
+            student.grade3 = keyboard.nextDouble();
+            if (student.grade3 >= 0 && student.grade1 <= 35) {
                 break;
             } else {
-                student.Grade1 = keyboard.nextDouble();
+                student.grade1 = keyboard.nextDouble();
             }
         }
 
-        if (student.VerifyPoints() > 0) {
-            System.out.println("Final Grade: " + student.FinalGrade());
+        if (student.verifyPoints() > 0) {
+            System.out.println("Final Grade: " + student.finalGrade());
             System.out.println("Failed");
-            System.out.println("Missing " + student.VerifyPoints() + " Points");
-        } else if (student.VerifyPoints() == 0) {
-            System.out.println("Final Grade: " + student.FinalGrade());
+            System.out.println("Missing " + student.verifyPoints() + " Points");
+        } else if (student.verifyPoints() == 0) {
+            System.out.println("Final Grade: " + student.finalGrade());
             System.out.println("Pass");
         }
 

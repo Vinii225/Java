@@ -26,9 +26,9 @@ public class Question1 {
         rectangle.width = keyboard.nextDouble();
         rectangle.height = keyboard.nextDouble();
 
-        System.out.printf("Area = %.2f\n", rectangle.Area());
-        System.out.printf("Perimeter = %.2f\n", rectangle.Perimeter());
-        System.out.printf("Diagonal = %.2f", rectangle.Diagonal());
+        System.out.printf("Area = %.2f\n", rectangle.area());
+        System.out.printf("Perimeter = %.2f\n", rectangle.perimeter());
+        System.out.printf("Diagonal = %.2f", rectangle.diagonal());
 
         keyboard.close();
     }

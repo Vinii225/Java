@@ -18,7 +18,7 @@ public class Question3 {
         // of customers who chose each type of fuel, as shown in the example.
 
         Scanner keyboard = new Scanner(System.in);
-        int code, Alcohol = 0, Gasoline = 0, Diesel = 0;
+        int code, alcohol = 0, gasoline = 0, diesel = 0;
 
         while (true) {
             System.out.println("1. Alcohol");
@@ -28,11 +28,11 @@ public class Question3 {
 
             code = keyboard.nextInt();
             if (code == 1) {
-                Alcohol++;
+                alcohol++;
             } else if (code == 2) {
-                Gasoline++;
+                gasoline++;
             } else if (code == 3) {
-                Diesel++;
+                diesel++;
             } else if (code == 4) {
                 break;
             } else {
@@ -40,9 +40,9 @@ public class Question3 {
             }
         }
         System.out.println("THANK YOU");
-        System.out.println("Alcohol: " + Alcohol);
-        System.out.println("Gasoline: " + Gasoline);
-        System.out.println("Diesel: " + Diesel);
+        System.out.println("Alcohol: " + alcohol);
+        System.out.println("Gasoline: " + gasoline);
+        System.out.println("Diesel: " + diesel);
 
         keyboard.close();
     }

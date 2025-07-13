@@ -10,13 +10,12 @@ public class Question6 {
          */
 
         Scanner keyboard = new Scanner(System.in);
-        int N;
+        int n;
 
-        N = keyboard.nextInt();
+        n = keyboard.nextInt();
 
-        for (int i = 1; i <= N; i++) {
-
-            if (N % i == 0) {
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
                 System.out.println(i);
             }
         }

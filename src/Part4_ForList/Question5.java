@@ -12,14 +12,14 @@ public class Question5 {
          */
 
         Scanner keyboard = new Scanner(System.in);
-        int N, Factorial = 1;
+        int n, factorial = 1;
 
-        N = keyboard.nextInt();
+        n = keyboard.nextInt();
 
-        for (int i = 1; i <= N; i++) {
-            Factorial *= i;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
         }
-        System.out.println("Factorial: " + Factorial);
+        System.out.println("Factorial: " + factorial);
         keyboard.close();
     }
 }

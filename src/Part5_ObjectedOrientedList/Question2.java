@@ -1,6 +1,5 @@
 package Part5_ObjectedOrientedList;
 
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -27,17 +26,17 @@ public class Question2 {
         Employee employee = new Employee();
 
         System.out.print("Name: ");
-        employee.Name = keyboard.nextLine();
+        employee.name = keyboard.nextLine();
         System.out.println("Gross Salary: ");
-        employee.GrossSalary = keyboard.nextDouble();
+        employee.grossSalary = keyboard.nextDouble();
         System.out.println("Tax: ");
-        employee.Tax = keyboard.nextDouble();
+        employee.tax = keyboard.nextDouble();
 
         System.out.println("Employee: " + employee);
 
         System.out.println("Which percentage to increase salary?");
         percentage = keyboard.nextDouble();
-        employee.IncreaseSalary(percentage);
+        employee.increaseSalary(percentage);
 
         System.out.println("Updated data: " + employee);
 
