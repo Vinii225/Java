@@ -8,7 +8,6 @@ public class Question3 {
     public static void main(String[] args) {
         
         // Entity: Student
-
         /*
         * Write a program to read a student's name and three grades.
         * At the end, show the student's final grade and indicate if the student is approved or not.
@@ -50,11 +49,11 @@ public class Question3 {
         }
 
         if (student.verifyPoints() > 0) {
-            System.out.println("Final Grade: " + student.finalGrade());
+            System.out.println("Final Grade: " + student.getFinalGrade());
             System.out.println("Failed");
             System.out.println("Missing " + student.verifyPoints() + " Points");
         } else if (student.verifyPoints() == 0) {
-            System.out.println("Final Grade: " + student.finalGrade());
+            System.out.println("Final Grade: " + student.getFinalGrade());
             System.out.println("Pass");
         }
 

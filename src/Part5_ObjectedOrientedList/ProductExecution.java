@@ -1,8 +1,9 @@
-package Testing;
-
-import Testing.Entities.Product;
+package Part5_ObjectedOrientedList;
 
 import java.util.Scanner;
+
+import Part5_ObjectedOrientedList.Entities.Product;
+
 import java.util.Locale;
 
 public class ProductExecution {
@@ -10,17 +11,16 @@ public class ProductExecution {
         Locale.setDefault(Locale.US);
         Scanner keyboard = new Scanner(System.in);
 
+        String name;
+        double price;
         int quantity;
 
-        Product product = new Product();
-        
         System.out.println("Enter Product data: ");
         System.out.print("Name: ");
-        product.name = keyboard.nextLine();
+        name = keyboard.nextLine();
         System.out.print("Price: ");
-        product.price = keyboard.nextDouble();
-        System.out.print("Quantity in Stock: ");
-        product.quantity = keyboard.nextInt();
+        price = keyboard.nextDouble();
+        Product product = new Product(name, price);
 
         System.out.printf("\n" + product.toString() + "\n");
 

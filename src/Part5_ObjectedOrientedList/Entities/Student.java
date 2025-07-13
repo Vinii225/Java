@@ -9,13 +9,13 @@ public class Student {
     public double grade2;
     public double grade3;
 
-    public double finalGrade() {
+    public double getFinalGrade() {
         return grade1 + grade2 + grade3;
     }
 
     public double verifyPoints() {
-        if (finalGrade() < 60) {
-            return 60 - finalGrade();
+        if (getFinalGrade() < 60) {
+            return 60 - getFinalGrade();
         } else {
             return 0.0;
         }
