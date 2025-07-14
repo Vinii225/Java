@@ -2,7 +2,7 @@
 
 > **Personal learning summary** - Clean syntax reference for Java fundamentals
 
-📅 **Updated:** July 13, 2025  
+📅 **Updated:** July 14, 2025  
 🎯 **Status:** Covering OOP fundamentals and best practices
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
@@ -17,9 +17,23 @@ import java.lang.Math;     // Mathematical operations
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
-## 🔧 Input & Output
+## � Sequential Structures (Data Types & Variables)
 
-### Scanner Operations
+```java
+// Primitive types
+int number = 10;
+double decimal = 3.14;
+boolean flag = true;
+String text = "Hello World";
+
+// Variable naming (best practices)
+Scanner keyboard = new Scanner(System.in);
+String studentName;
+double finalGrade;
+int totalStudents;
+```
+
+### Input & Output Operations
 ```java
 Scanner keyboard = new Scanner(System.in);
 
@@ -45,25 +59,7 @@ Locale.setDefault(Locale.US);  // Decimal separator as dot (.)
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
-## 📊 Data Types & Variables
-
-```java
-// Primitive types
-int number = 10;
-double decimal = 3.14;
-boolean flag = true;
-String text = "Hello World";
-
-// Variable naming (best practices)
-Scanner keyboard = new Scanner(System.in);
-String studentName;
-double finalGrade;
-int totalStudents;
-```
-
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
-
-## 🔀 Control Structures
+## � Conditional Structures
 
 ### Conditional Statements
 ```java
@@ -81,19 +77,97 @@ if (A == B) {
 !   // NOT
 ```
 
-### Loops
+### Comparison Operators
+```java
+==  // Equal to
+!=  // Not equal to
+<   // Less than
+>   // Greater than
+<=  // Less than or equal
+>=  // Greater than or equal
+```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
+
+## � Repetitive Structures (Loops)
+
+### For Loop
 ```java
 // For loop
 for (int i = 0; i <= 10; i++) {
     System.out.println(i);
 }
+```
 
+### While Loop
+```java
 // While loop
 while (condition) {
     // code block
     continue;  // skip iteration
     break;     // exit loop
 }
+```
+
+### Input Validation with Loops
+```java
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter grade (0-100): ");
+double grade = scanner.nextDouble();
+
+while (grade < 0 || grade > 100) {
+    System.out.print("Invalid! Enter grade (0-100): ");
+    grade = scanner.nextDouble();
+}
+```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
+
+## 🔧 String Formatting & Operations
+
+### String Formatting
+```java
+String name = "Alice";
+int age = 20;
+double grade = 85.75;
+
+// Printf formatting
+System.out.printf("Name: %s, Age: %d, Grade: %.2f%n", name, age, grade);
+
+// String.format
+String formatted = String.format("Grade: %.2f", grade);
+```
+
+### String vs Char Comparison
+```java
+// For String comparison
+if (answer.equals("y")) { /* code */ }
+
+// For char comparison  
+char answer = keyboard.next().charAt(0);
+if (answer == 'y') { /* code */ }
+```
+
+**Observation:** If it's String use `.equals()` and if it's char use `'char'`
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
+
+## 🧮 Mathematical Operations
+
+```java
+// Math class methods
+Math.PI                    // Pi constant
+Math.sqrt(x)              // Square root
+Math.pow(x, y)            // Power operation
+Math.abs(x)               // Absolute value
+Math.max(a, b)            // Maximum value
+Math.min(a, b)            // Minimum value
+
+// Arithmetic shortcuts
+x++;        // x = x + 1
+x--;        // x = x - 1
+x += 3;     // x = x + 3
+x *= 2;     // x = x * 2
 ```
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
@@ -172,24 +246,43 @@ public int sum(int a, int b) {
 }
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
+### Encapsulation
 
-## 🧮 Mathematical Operations
+**Encapsulation** shows only secure operations and keeps objects in a consistent state. An object should not expose its attributes (make them private) - they will be accessed by getters and setters methods.
 
 ```java
-// Math class methods
-Math.PI                    // Pi constant
-Math.sqrt(x)              // Square root
-Math.pow(x, y)            // Power operation
-Math.abs(x)               // Absolute value
-Math.max(a, b)            // Maximum value
-Math.min(a, b)            // Minimum value
+public class Item {
+    // Private attributes (encapsulated)
+    private String name;
+    private double price;
 
-// Arithmetic shortcuts
-x++;        // x = x + 1
-x--;        // x = x - 1
-x += 3;     // x = x + 3
-x *= 2;     // x = x * 2
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+    
+    public double getPrice() {
+        return price;
+    }
+    
+    // Setter methods
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setPrice(double price) {
+        this.price = price;
+    }
+}
+```
+
+### Access Modifiers
+
+```java
+private:   // Member only can be accessed by the same class
+           // (nothing/default): Member only can be accessed by the same package
+protected: // Member only can be accessed by subclasses of different packages
+public:    // Member is accessed by all classes (unless it resides in a different module that doesn't export the package)
 ```
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
@@ -217,45 +310,6 @@ students.add("Alice");
 students.add("Bob");
 students.remove("Alice");
 System.out.println(students.size());
-```
-
-### Input Validation
-```java
-Scanner scanner = new Scanner(System.in);
-System.out.print("Enter grade (0-100): ");
-double grade = scanner.nextDouble();
-
-while (grade < 0 || grade > 100) {
-    System.out.print("Invalid! Enter grade (0-100): ");
-    grade = scanner.nextDouble();
-}
-```
-
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
-
-## 🔧 Useful Shortcuts
-
-### String Formatting
-```java
-String name = "Alice";
-int age = 20;
-double grade = 85.75;
-
-// Printf formatting
-System.out.printf("Name: %s, Age: %d, Grade: %.2f%n", name, age, grade);
-
-// String.format
-String formatted = String.format("Grade: %.2f", grade);
-```
-
-### Comparison Operators
-```java
-==  // Equal to
-!=  // Not equal to
-<   // Less than
->   // Greater than
-<=  // Less than or equal
->=  // Greater than or equal
 ```
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
