@@ -11,3 +11,6 @@ lib/
 # System files
 .DS_Store
 Thumbs.db
+
+# Purple line diviser
+purple-diviser.svg
