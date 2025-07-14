@@ -10,7 +10,7 @@
 
 **Observation:** I am doing <span style="color: #8A2BE2;">**two courses**</span> at different universities (<span style="color: #8A2BE2;">**public and private**</span>). Since the vacation schedules never align between the two institutions, it may take time to finish the course.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📚 Topics Covered
 
@@ -35,7 +35,7 @@
 **Legend:**
  ✅ = Completed | 🔄 = In Progress | ❌ = Not Started
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📁 Folder Structure Overview
 
@@ -94,7 +94,7 @@
         └── 📄 Product.java
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📝 Official Exercise Lists (in Portuguese)
 
@@ -102,13 +102,13 @@ This repository contains official **PDF exercise lists** from the course (in **B
 Each exercise is implemented in Java and includes **explanatory comments in English** to ensure clarity and accessibility.
 They're neatly organized by section under the `src/` folder.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 🧠 Goal
 
 > Build a <span style="color: #8A2BE2;">**strong foundation in Java**</span>, create **real-world applications**, and develop confidence in <span style="color: #8A2BE2;">**object-oriented programming**</span> and modern **software development practices**.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 ## 📌 Notes
 
@@ -116,7 +116,7 @@ They're neatly organized by section under the `src/` folder.
 - All exercises are based on **official materials** provided by the instructor.
 - This repository serves as a **learning record** and a **reference** for others starting their Java journey.
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
 > Feel free to explore the code, use it as a reference, and contribute if you find anything helpful!  
 > If you have questions or feedback, don't hesitate to reach out.  

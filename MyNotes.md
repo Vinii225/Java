@@ -1,13 +1,38 @@
-# ☕ Java Study Notes & Quick Reference
+﻿# â˜• Java Study Notes & Quick Reference
 
 > **Personal learning summary** - Clean syntax reference for Java fundamentals
 
-📅 **Updated:** July 13, 2025  
-🎯 **Status:** Covering OOP fundamentals and best practices
+ðŸ“… **Updated:** July 13, 2025  
+ðŸŽ¯ **Status:** Covering OOP fundamentals and best practices
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="p```
 
-## 📚 Essential Imports
+<im}
+```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple di}
+```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ðŸ’¡ Key Reminders
+
+- âœ… Always validate user input
+
+## ðŸ”§ Useful Shortcuts
+
+### String Formattingurple-divisor.svg" width="100%" height="6" alt="Purple di```}
+```
+
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ðŸ’¡ Key Remindersmg src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ðŸ’¡ Key Reminders">
+
+## ðŸ”§ Useful Shortcuts-divisor.svg" width="100%" height="6" alt="Purple divider">
+
+## ðŸ“š Essential Imports
 
 ```java
 import java.util.Scanner;   // User input
@@ -15,9 +40,9 @@ import java.util.Locale;   // Number formatting
 import java.lang.Math;     // Mathematical operations
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🔧 Input & Output
+## ðŸ”§ Input & Output
 
 ### Scanner Operations
 ```java
@@ -43,9 +68,9 @@ System.out.printf("%.2f", x);  // Formatted output
 Locale.setDefault(Locale.US);  // Decimal separator as dot (.)
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 📊 Data Types & Variables
+## ðŸ“Š Data Types & Variables
 
 ```java
 // Primitive types
@@ -61,9 +86,9 @@ double finalGrade;
 int totalStudents;
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🔀 Control Structures
+## ðŸ”€ Control Structures
 
 ### Conditional Statements
 ```java
@@ -96,9 +121,9 @@ while (condition) {
 }
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🎯 Object-Oriented Programming
+## ðŸŽ¯ Object-Oriented Programming
 
 ### Class Structure
 ```java
@@ -172,9 +197,9 @@ public int sum(int a, int b) {
 }
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🧮 Mathematical Operations
+## ðŸ§® Mathematical Operations
 
 ```java
 // Math class methods
@@ -192,9 +217,9 @@ x += 3;     // x = x + 3
 x *= 2;     // x = x * 2
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🚀 Advanced Concepts
+## ðŸš€ Advanced Concepts
 
 ### Arrays
 ```java
@@ -231,9 +256,9 @@ while (grade < 0 || grade > 100) {
 }
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## � Useful Shortcuts
+## ï¿½ Useful Shortcuts
 
 ### String Formatting
 ```java
@@ -258,9 +283,9 @@ String formatted = String.format("Grade: %.2f", grade);
 >=  // Greater than or equal
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## 🎲 Practice Examples
+## ðŸŽ² Practice Examples
 
 ### Simple Calculator
 ```java
@@ -302,13 +327,13 @@ public class Student {
 }
 ```
 
-<img src="purple-diviser.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## � Key Reminders
+## ï¿½ Key Reminders
 
-- ✅ Always validate user input
-- ✅ Use meaningful variable names
-- ✅ Close Scanner objects
-- ✅ Use `Locale.setDefault(Locale.US)` for consistency
-- ✅ Constructor names must match class name
-- ✅ Use `this.` for instance variables
+- âœ… Always validate user input
+- âœ… Use meaningful variable names
+- âœ… Close Scanner objects
+- âœ… Use `Locale.setDefault(Locale.US)` for consistency
+- âœ… Constructor names must match class name
+- âœ… Use `this.` for instance variables
