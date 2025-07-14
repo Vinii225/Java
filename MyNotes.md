@@ -1,38 +1,13 @@
-﻿# â˜• Java Study Notes & Quick Reference
+# ☕ Java Study Notes & Quick Reference
 
 > **Personal learning summary** - Clean syntax reference for Java fundamentals
 
-ðŸ“… **Updated:** July 13, 2025  
-ðŸŽ¯ **Status:** Covering OOP fundamentals and best practices
-
-<img src="p```
-
-<im}
-```
-
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple di}
-```
+📅 **Updated:** July 13, 2025  
+🎯 **Status:** Covering OOP fundamentals and best practices
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸ’¡ Key Reminders
-
-- âœ… Always validate user input
-
-## ðŸ”§ Useful Shortcuts
-
-### String Formattingurple-divisor.svg" width="100%" height="6" alt="Purple di```}
-```
-
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## ðŸ’¡ Key Remindersmg src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## ðŸ’¡ Key Reminders">
-
-## ðŸ”§ Useful Shortcuts-divisor.svg" width="100%" height="6" alt="Purple divider">
-
-## ðŸ“š Essential Imports
+## 📚 Essential Imports
 
 ```java
 import java.util.Scanner;   // User input
@@ -42,7 +17,7 @@ import java.lang.Math;     // Mathematical operations
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸ”§ Input & Output
+## 🔧 Input & Output
 
 ### Scanner Operations
 ```java
@@ -70,7 +45,7 @@ Locale.setDefault(Locale.US);  // Decimal separator as dot (.)
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸ“Š Data Types & Variables
+## 📊 Data Types & Variables
 
 ```java
 // Primitive types
@@ -88,7 +63,7 @@ int totalStudents;
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸ”€ Control Structures
+## 🔀 Control Structures
 
 ### Conditional Statements
 ```java
@@ -123,7 +98,7 @@ while (condition) {
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸŽ¯ Object-Oriented Programming
+## 🎯 Object-Oriented Programming
 
 ### Class Structure
 ```java
@@ -199,7 +174,7 @@ public int sum(int a, int b) {
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸ§® Mathematical Operations
+## 🧮 Mathematical Operations
 
 ```java
 // Math class methods
@@ -219,7 +194,7 @@ x *= 2;     // x = x * 2
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸš€ Advanced Concepts
+## 🚀 Advanced Concepts
 
 ### Arrays
 ```java
@@ -258,7 +233,7 @@ while (grade < 0 || grade > 100) {
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ï¿½ Useful Shortcuts
+## 🔧 Useful Shortcuts
 
 ### String Formatting
 ```java
@@ -285,7 +260,7 @@ String formatted = String.format("Grade: %.2f", grade);
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ðŸŽ² Practice Examples
+## 🎲 Practice Examples
 
 ### Simple Calculator
 ```java
@@ -329,11 +304,16 @@ public class Student {
 
 <img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
 
-## ï¿½ Key Reminders
+## 💡 Key Reminders
 
-- âœ… Always validate user input
-- âœ… Use meaningful variable names
-- âœ… Close Scanner objects
-- âœ… Use `Locale.setDefault(Locale.US)` for consistency
-- âœ… Constructor names must match class name
-- âœ… Use `this.` for instance variables
+- ✅ Always validate user input
+- ✅ Use meaningful variable names
+- ✅ Close Scanner objects
+- ✅ Use `Locale.setDefault(Locale.US)` for consistency
+- ✅ Constructor names must match class name
+- ✅ Use `this.` for instance variables
+- ✅ Practice daily for improvement
+
+---
+
+> **Happy coding! Keep practicing and building amazing Java applications! 🚀**
