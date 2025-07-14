@@ -5,7 +5,7 @@
 📅 **Updated:** July 13, 2025  
 🎯 **Status:** Covering OOP fundamentals and best practices
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 📚 Essential Imports
 
@@ -15,7 +15,7 @@ import java.util.Locale;   // Number formatting
 import java.lang.Math;     // Mathematical operations
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🔧 Input & Output
 
@@ -43,7 +43,7 @@ System.out.printf("%.2f", x);  // Formatted output
 Locale.setDefault(Locale.US);  // Decimal separator as dot (.)
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 📊 Data Types & Variables
 
@@ -61,7 +61,7 @@ double finalGrade;
 int totalStudents;
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🔀 Control Structures
 
@@ -96,7 +96,7 @@ while (condition) {
 }
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🎯 Object-Oriented Programming
 
@@ -172,7 +172,7 @@ public int sum(int a, int b) {
 }
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🧮 Mathematical Operations
 
@@ -192,7 +192,7 @@ x += 3;     // x = x + 3
 x *= 2;     // x = x * 2
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🚀 Advanced Concepts
 
@@ -231,7 +231,7 @@ while (grade < 0 || grade > 100) {
 }
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🔧 Useful Shortcuts
 
@@ -258,7 +258,7 @@ String formatted = String.format("Grade: %.2f", grade);
 >=  // Greater than or equal
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 🎲 Practice Examples
 
@@ -302,7 +302,7 @@ public class Student {
 }
 ```
 
-<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divider">
+<img src="purple-divisor.svg" width="100%" height="6" alt="Purple divisor">
 
 ## 💡 Key Reminders
 
